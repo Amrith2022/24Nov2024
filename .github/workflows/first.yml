@@ -4,7 +4,7 @@ jobs:
  MyFirstJob:
    runs-on: ubuntu-latest
    steps:
-     -name: MyFirstStep
+     - name: MyFirstStep
       run: echo "Hello World!"
-     -name: MySecondStep
+     - name: MySecondStep
       run: echo "MyEnd"
